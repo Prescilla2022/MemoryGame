@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MemoryGame/static/css/main.197ced7d.css",
+    "main.js": "/MemoryGame/static/js/main.10de19ce.js",
+    "static/js/787.ee92e45e.chunk.js": "/MemoryGame/static/js/787.ee92e45e.chunk.js",
+    "static/media/click.wav": "/MemoryGame/static/media/click.6b885d08b1dd5737c869.wav",
+    "static/media/fish.png": "/MemoryGame/static/media/fish.eec44d9da62cb88b1db6.png",
+    "static/media/wheel.png": "/MemoryGame/static/media/wheel.3584f3b4364813c91b76.png",
+    "static/media/sunflower.png": "/MemoryGame/static/media/sunflower.aebfc888be7549200ea0.png",
+    "static/media/eight.png": "/MemoryGame/static/media/eight.23fb75943208ce051d71.png",
+    "static/media/christmas-tree.png": "/MemoryGame/static/media/christmas-tree.7d85730d5cdfa313ad91.png",
+    "static/media/Six.png": "/MemoryGame/static/media/Six.1e86923e1836cb9c1b10.png",
+    "static/media/three.png": "/MemoryGame/static/media/three.c28741b53cee48678104.png",
+    "static/media/five.png": "/MemoryGame/static/media/five.734ec6529e5691942d37.png",
+    "static/media/Two.png": "/MemoryGame/static/media/Two.753db48ef15161fab032.png",
+    "static/media/reindeer.png": "/MemoryGame/static/media/reindeer.63bac3ddbd10c212e9e9.png",
+    "static/media/Seven.png": "/MemoryGame/static/media/Seven.548f9f3eb4accb289c6a.png",
+    "static/media/four.png": "/MemoryGame/static/media/four.fe3138927522817bdf0b.png",
+    "static/media/anchor.png": "/MemoryGame/static/media/anchor.c2c2af640d80e8668886.png",
+    "static/media/one.png": "/MemoryGame/static/media/one.6f15338f9e9cb0b0c89f.png",
+    "static/media/baby-boy.png": "/MemoryGame/static/media/baby-boy.f5b9123513ab0c79c43a.png",
+    "static/media/snowflake.png": "/MemoryGame/static/media/snowflake.d5b883ce86967b86df48.png",
+    "static/media/logo.svg": "/MemoryGame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MemoryGame/index.html",
+    "main.197ced7d.css.map": "/MemoryGame/static/css/main.197ced7d.css.map",
+    "main.10de19ce.js.map": "/MemoryGame/static/js/main.10de19ce.js.map",
+    "787.ee92e45e.chunk.js.map": "/MemoryGame/static/js/787.ee92e45e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.197ced7d.css",
+    "static/js/main.10de19ce.js"
+  ]
+}
