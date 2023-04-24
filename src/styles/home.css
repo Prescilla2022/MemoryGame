@@ -1,0 +1,288 @@
+body {
+  overflow-x: hidden;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navContainer p {
+  font-size: 2em;
+  color: rgb(55, 55, 78);
+  margin: 4% 10% 4% 10%;
+  font-weight: 700;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  width: 40%;
+}
+.linkContainer button {
+  border-radius: 20em;
+  height: 60%;
+  width: 48%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.linkContainer button:nth-child(1) {
+  background-color: orange;
+  font-size: 1em;
+  cursor: pointer;
+}
+.linkContainer button:nth-child(2) {
+  background-color: rgb(174, 162, 162);
+  font-size: 1em;
+  cursor: pointer;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.gameContainer {
+  display: grid;
+  grid-template-areas:
+    "1 2 3 4"
+    "5 6 7 8"
+    "9 10 11 12"
+    "13 14 15 16";
+  height: 50%;
+  width: 30%;
+  margin: 2% auto auto auto;
+  align-items: center;
+}
+
+.gameContainer div {
+  display: flex;
+  height: 90%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: rgb(211, 209, 209);
+}
+.gameContainer div div {
+  height: 70%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  border-radius: 50%;
+}
+.gameContainer div:active {
+  transform: rotateY(180deg);
+  transition: all 0.3s;
+}
+
+.gameContainer2 {
+  display: grid;
+  grid-template-areas:
+    "1 2 3 4 5 6"
+    "7 8 9 10 11 12"
+    "13 14 15 16 17 18"
+    "19 20 21 22 23 24"
+    "25 26 27 28 29 30"
+    "31 32 33 34 35 36";
+  height: 50%;
+  width: 30%;
+  margin: 2% auto auto auto;
+  align-items: center;
+}
+.gameContainer2 div {
+  display: flex;
+  height: 90%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  /*background-color: rgb(226, 229, 231);*/
+  background-color: rgb(211, 209, 209);
+  cursor: pointer;
+}
+.gameContainer2 div div {
+  height: 70%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  border-radius: 50%;
+}
+.gameContainer2 div:active {
+  transform: rotateY(180deg);
+  transition: all 0.3s;
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.score div {
+  height: 7vh;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  padding: 1%;
+  gap: 1em;
+  margin: 10px;
+}
+
+.score div:nth-child(1) {
+  background-color: rgb(174, 162, 162);
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+.score div:nth-child(2) {
+  background-color: rgb(174, 162, 162);
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+.points {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50%;
+  font-size: 5rem;
+  color: orange;
+  z-index: -1;
+}
+@keyframes down {
+  0% {
+    transform: translateZ(200px) transLateY(40px);
+  }
+  80% {
+    transform: translateZ(-10px) transLateY(0px);
+  }
+  100% {
+    transform: translateZ(0px) transLateY(0px);
+  }
+}
+
+.turn {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  font-size: 1em;
+}
+
+.optionsContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(40, 40, 57);
+  padding-top: 5%;
+}
+.options {
+  background-color: white;
+  height: 80%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+}
+.innerContainer {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  gap: 3%;
+}
+
+.theme {
+  text-align: center;
+}
+.theme > button {
+  width: 40%;
+  height: 30%;
+  border-radius: 30px;
+
+  background-color: rgb(192, 212, 228);
+  border: none;
+  margin: 1%;
+  font-size: 1em;
+  cursor: pointer;
+}
+.persons {
+  text-align: center;
+}
+.persons > button {
+  border-radius: 30px;
+  margin: 1%;
+  width: 19%;
+  height: 30%;
+  background-color: rgb(192, 212, 228);
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.size {
+  text-align: center;
+}
+.size > button {
+  width: 40%;
+  height: 30%;
+  border-radius: 30px;
+  margin: 1%;
+  background-color: rgb(192, 212, 228);
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.theme h2,
+.persons h2,
+.size h2 {
+  text-align: left;
+  margin-left: 10%;
+  color: rgb(27, 27, 42);
+}
+.theme button:hover {
+  background-color: rgb(166, 187, 203);
+}
+.persons button:hover {
+  background-color: rgb(166, 187, 203);
+}
+.size button:hover {
+  background-color: rgb(166, 187, 203);
+}
+.start {
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  color: aliceblue;
+  background-color: orange;
+  border-radius: 30px;
+  width: 85%;
+  border: none;
+  font-size: 1.5em;
+  margin-top: 6%;
+}
+
+.Gameresult {
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  right: auto;
+  background-color: rgb(44, 44, 69);
+  height: fit-content;
+  width: 30vw;
+}
